@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+security:
+  oauth2:
+    resource:
+      id: USER_ADMIN_RESOURCE
+##      token-info-uri: http://localhost:9001/oauth/check_token/
+#      jwt:
+#        key-value: |
+#          -----BEGIN PUBLIC KEY-----
+#          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwTSzbYY8YTme5VZCoi0o
+#          oXokAOAnhCJfhtVD1F0EeQh5AIL9jw3ZjSrThGK6tsQYfxcykElsCzV83dCqzvRM
+#          J9f6SZl7dGTYi+OiAGHvXTORRhG9XXmhaPDog69u+KalrJPz3IRsyz/U7qUaaMjp
+#          Jnv8Gm5wad0bDKmsrefQpt00AZDJZZnsTp1jxdNQ34mRtucT3iTFThAVgbf0TpdD
+#          A0K/I+wrAWZDFDQaQ6kWhxxzCYRnJUlZXh8JkqrQgiF+r5eVy97WvedtBA0r37B4
+#          wfdepeJ7i2vB8c/6YmyH5HWQ1moOrkNdS2/FY6zaVqYScRZCvPpNUpe3rZge/NqA
+#          EQIDAQAB
+#          -----END PUBLIC KEY-----
